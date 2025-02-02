@@ -1,0 +1,80 @@
+#logo {
+    width: 120px;
+}
+
+.iconos_flag{
+    margin-left: 25px;
+}
+
+.bandera {
+    width: 35px;
+    opacity: 75%;
+}
+
+.carousel-caption {
+    top: 45%;
+}
+
+.carousel-caption h2 {
+    color: black;
+    font-size: 2.5em;
+    font-weight: bold;
+}
+
+.linea_naranja {
+    width: 150px;
+    height: 10px;
+    background-color: #D28965;
+    margin: 0 auto;
+}
+
+.img_cantera {
+    max-width: 100%;
+}
+
+.icono_nosotros {
+    width: 95px;
+    height: 95px;
+}
+
+.icono_nosotros_ivestiga {
+    width: 105px;
+}
+
+.img-fabricacion {
+    width: 80%;
+}
+
+.produccion p {
+    height: 50px;
+}
+
+.img-produccion{
+    background-size: auto;
+    background-position: center;
+    width: 140px;
+    height: 140px;
+}
+
+.img-produccion-1 {
+    background-image: url("../img/bloque_material_03.jpg");
+}
+.img-produccion-2 {
+    background-image: url("../img/corte.jpg");
+}
+.img-produccion-3 {
+    background-image: url("../img/pulido_refuerzo.jpg");
+}
+.img-produccion-4 {
+    background-image: url("../img/control_calidad.jpg");
+}
+.img-produccion-5 {
+    background-image: url("../img/transporte.jpg");
+}
+
+.flecha::after {
+    content: url("../iconos/flecha_dcha.png");
+    position: relative;
+    top: -80px;
+    left: 90px;
+}
