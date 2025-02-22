@@ -39,25 +39,7 @@
                         <li class="nav-item">
                             <a class="nav-link" href="#">Contacto</a>
                         </li>
-                        <!-- <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                                aria-expanded="false">
-                                Dropdown
-                            </a>
-                            <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="#">Action</a></li>
-                                <li><a class="dropdown-item" href="#">Another action</a></li>
-                                <li>
-                                    <hr class="dropdown-divider">
-                                </li>
-                                <li><a class="dropdown-item" href="#">Something else here</a></li>
-                            </ul>
-                        </li> -->
                     </ul>
-                    <!-- <form class="d-flex mt-3" role="search">
-                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                        <button class="btn btn-outline-success" type="submit">Search</button>
-                    </form> -->
                 </div>
             </div>
 
@@ -83,23 +65,10 @@
         </div>
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="img/cocina.png" class="d-block w-100" alt="cocina">
-                <div class="carousel-caption">
+                <img src="img/A7406683_1.jpg" class="d-block w-100" alt="fabrica">
+                <div class="carousel-caption text-center text-md-end">
                     <h2>CUMPLIMOS<br>TUS SUEÑOS</h2>
-                </div>
-            </div>
-            <div class="carousel-item">
-                <img src="img/cocina.png" class="d-block w-100" alt="...">
-                <div class="carousel-caption d-none d-md-block">
-                    <h5>Second slide label</h5>
-                    <p>Some representative placeholder content for the second slide.</p>
-                </div>
-            </div>
-            <div class="carousel-item">
-                <img src="img/cocina.png" class="d-block w-100" alt="...">
-                <div class="carousel-caption d-none d-md-block">
-                    <h5>Third slide label</h5>
-                    <p>Some representative placeholder content for the third slide.</p>
+                    <button type="button" class="btn btn-primary" id="mas_info">MÁS INFORMACIÓN</button>
                 </div>
             </div>
         </div>
@@ -122,10 +91,10 @@
 
     <div class="container text-center">
         <div class="row">
-            <div class="col-lg-6 mb-3">
+            <div class="col-xl-6 mb-3">
                 <img src="img/cantera.png" alt="cantera" class="img_cantera">
             </div>
-            <div class="col-lg-6">
+            <div class="col-xl-6">
                 <img src="img/logoStone.png" alt="Logo Stone Basic" id="logo">
                 <p class="mt-3">
                     Fundada en el año 2004, Stone Basiq ha forjado una trayectoria sólida y prestigiosa en el sector de
@@ -143,8 +112,14 @@
             </div>
         </div>
 
+        <div class="row mt-2">
+            <img src="img/A7406691_1.jpg" alt="taller mármol" class="col-12 col-md-4 mt-3">
+            <img src="img/A7406680_1.jpg" alt="taller mármol" class="col-12 col-md-4 mt-3">
+            <img src="img/A7406711_1.jpg" alt="taller mármol" class="col-12 col-md-4 mt-3">
+        </div>
+
         <div class="row mt-5">
-            <div class="col-lg-4 text-center">
+            <div class="col-lg-4 text-center dibuja-borde-derecho">
                 <div class="linea_naranja d-lg-none mb-3"></div>
                 <img src="iconos/imagen_1.png" alt="icono trabajo" class="icono_nosotros">
                 <p>Tecnología de vanguardia</p>
@@ -153,7 +128,7 @@
                     obteniendo acabados impecables en cada pieza.
                 </p>
             </div>
-            <div class="col-lg-4 text-center">
+            <div class="col-lg-4 text-center dibuja-borde-derecho">
                 <div class="linea_naranja d-lg-none mb-3"></div>
                 <img src="iconos/imagen_2.png" alt="icono ideas" class="icono_nosotros icono_nosotros_ivestiga">
                 <p>Investigación y desarrollo</p>
@@ -174,79 +149,292 @@
         </div>
     </div>
 
-    <img src="img/cabecera.png" alt="fabrica" class="w-100">
+    <img src="img/A7406633_1.jpg" alt="fabrica" class="w-100 mt-5">
 
-    <div class="text-center py-4">
-        <p>PROCESO DE FABRICACIÓN PROPIO AL COMPLETO</p>
-        <div class="linea_naranja"></div>
-        <div class="container mt-4">
-            <p class="col-md-6 offset-md-3">
-                En Stone Basiq siempre estamos pensando en nuestros clientes, en cómo podemos hacer que sea más fácil su
-                trabajo, por eso disponemos de un proceso de fabricación completo.
-            </p>
+    <div class="container-fluid text-center py-4 proceso-fab">
+        <div class="row">
+            <p>PROCESO DE FABRICACIÓN PROPIO AL COMPLETO</p>
+            <div class="linea_naranja"></div>
+            <div class="container mt-4">
+                <p class="col-md-6 offset-md-3">
+                    En Stone Basiq siempre estamos pensando en nuestros clientes, en cómo podemos hacer que sea más
+                    fácil su
+                    trabajo, por eso disponemos de un proceso de fabricación completo.
+                </p>
+            </div>
+        </div>
+
+        <div class="container d-lg-none mb-4">
+            <div class="row produccion">
+                <div class="col-6 col-lg-2 offset-lg-1">
+                    <p class="texto-abajo">RECEPCIÓN DEL MATERIAL</p>
+                    <div class="img-produccion img-produccion-1 rounded-5 mx-auto"></div>
+                    <!-- <img src="img/bloque_material_03.jpg" alt="" class="img-fabricacion"> -->
+                </div>
+                <div class="col-6 col-lg-2">
+                    <p class="texto-abajo">CORTE EN CORTABLOQUES</p>
+                    <div class="img-produccion img-produccion-2 rounded-5 mx-auto"></div>
+                    <!-- <img src="img/corte.jpg" alt="" class="img-fabricacion"> -->
+                </div>
+                <div class="col-6 col-lg-2">
+                    <p class="texto-abajo">REFUERZO Y PULIDO</p>
+                    <div class="img-produccion img-produccion-3 rounded-5 mx-auto"></div>
+                    <!-- <img src="img/pulido_refuerzo.jpg" alt="" class="img-fabricacion"> -->
+                </div>
+                <div class="col-6 col-lg-2">
+                    <p class="texto-abajo">CONTROL DE CALIDAD</p>
+                    <div class="img-produccion img-produccion-4 rounded-5 mx-auto"></div>
+                    <!-- <img src="img/control_calidad.jpg" alt="" class="img-fabricacion"> -->
+                </div>
+                <div class="col-6 col-lg-2">
+                    <p class="texto-abajo">CARGA Y TRANSPORTE</p>
+                    <div class="img-produccion img-produccion-5 rounded-5 mx-auto"></div>
+                    <!-- <img src="img/transporte.jpg" alt="" class="img-fabricacion"> -->
+                </div>
+            </div>
+        </div>
+
+        <div class="produccion d-none d-lg-block">
+            <div class="row produccion">
+                <div class="flecha col-6 col-lg-2 offset-lg-1">
+                    <p>RECEPCIÓN DEL MATERIAL</p>
+                    <div class="img-produccion img-produccion-1 rounded-5 mx-auto"></div>
+                    <!-- <img src="img/bloque_material_03.jpg" alt="" class="img-fabricacion"> -->
+                </div>
+                <div class="flecha col-6 col-lg-2">
+                    <p>CORTE EN CORTABLOQUES</p>
+                    <div class="img-produccion img-produccion-2 rounded-5 mx-auto"></div>
+                    <!-- <img src="img/corte.jpg" alt="" class="img-fabricacion"> -->
+                </div>
+                <div class="flecha col-6 col-lg-2">
+                    <p>REFUERZO Y PULIDO</p>
+                    <div class="img-produccion img-produccion-3 rounded-5 mx-auto"></div>
+                    <!-- <img src="img/pulido_refuerzo.jpg" alt="" class="img-fabricacion"> -->
+                </div>
+                <div class="flecha col-6 col-lg-2">
+                    <p>CONTROL DE CALIDAD</p>
+                    <div class="img-produccion img-produccion-4 rounded-5 mx-auto"></div>
+                    <!-- <img src="img/control_calidad.jpg" alt="" class="img-fabricacion"> -->
+                </div>
+                <div class="col-6 col-lg-2">
+                    <p>CARGA Y TRANSPORTE</p>
+                    <div class="img-produccion img-produccion-5 rounded-5 mx-auto"></div>
+                    <!-- <img src="img/transporte.jpg" alt="" class="img-fabricacion"> -->
+                </div>
+
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col align-self-center">
+                <button type="button" class="btn btn-primary w-35" id="mas_info_2">MÁS INFORMACIÓN</button>
+            </div>
         </div>
     </div>
 
-    <div class="container text-center d-lg-none">
-        <div class="row produccion">
+    <!-- PIEDRA DE MAXIMA CALIDAD -->
+    <div class="container text-center py-4">
+        <div class="row">
+            <p>PIEDRA DE MÁXIMA CALIDAD</p>
+            <div class="linea_naranja"></div>
+        </div>
+        <div class="row mt-2">
+            <img src="img/A7406588_1.jpg" alt="taller mármol" class="col-12 col-md-6 mt-3">
+            <img src="img/A7406714_1.jpg" alt="taller mármol" class="col-12 col-md-6 mt-3">
+        </div>
+    </div>
+
+
+    <!-- PRODUCTOS CON PERSONALIDAD -->
+    <div class="container-fluid text-center py-4">
+        <div class="row">
+            <p>PRODUCTOS CON PERSONALIDAD</p>
+            <div class="linea_naranja"></div>
+            <div class="container mt-4">
+                <p class="col-md-6 offset-md-3">
+                    Stone Basiq ofrece una amplia gama de medidas y productos especializándose en la fabricación de
+                    mármol natural, dando solución a cualquier proyecto.
+                </p>
+                <p>
+                    Algunos de nuestros productos son:
+                </p>
+            </div>
+        </div>
+
+        <div class="row productos">
             <div class="col-6 col-lg-2 offset-lg-1">
-                <p>RECEPCIÓN DEL MATERIAL</p>
-                <div class="img-produccion img-produccion-1 rounded-5 mx-auto"></div>
-                <!-- <img src="img/bloque_material_03.jpg" alt="" class="img-fabricacion"> -->
+                <div class="img-produccion img-producto-1 rounded-5 mx-auto"></div>
+                <p>CREMA MARFIL</p>
             </div>
             <div class="col-6 col-lg-2">
-                <p>CORTE EN CORTABLOQUES</p>
-                <div class="img-produccion img-produccion-2 rounded-5 mx-auto"></div>
-                <!-- <img src="img/corte.jpg" alt="" class="img-fabricacion"> -->
+                <div class="img-produccion img-producto-2 rounded-5 mx-auto"></div>
+                <p>NEGRO MARQUINA</p>
             </div>
             <div class="col-6 col-lg-2">
-                <p>REFUERZO Y PULIDO</p>
-                <div class="img-produccion img-produccion-3 rounded-5 mx-auto"></div>
-                <!-- <img src="img/pulido_refuerzo.jpg" alt="" class="img-fabricacion"> -->
+                <div class="img-produccion img-producto-3 rounded-5 mx-auto"></div>
+                <p>MARRÓN EMPERADOR</p>
             </div>
             <div class="col-6 col-lg-2">
-                <p>CONTROL DE CALIDAD</p>
-                <div class="img-produccion img-produccion-4 rounded-5 mx-auto"></div>
-                <!-- <img src="img/control_calidad.jpg" alt="" class="img-fabricacion"> -->
+                <div class="img-produccion img-producto-4 rounded-5 mx-auto"></div>
+                <p>ROJO ALICANTE</p>
             </div>
             <div class="col-6 col-lg-2">
-                <p>CARGA Y TRANSPORTE</p>
-                <div class="img-produccion img-produccion-5 rounded-5 mx-auto"></div>
-                <!-- <img src="img/transporte.jpg" alt="" class="img-fabricacion"> -->
+                <div class="img-produccion img-producto-5 rounded-5 mx-auto"></div>
+                <p>CALIZA CAPRI</p>
+            </div>
+
+        </div>
+
+        <div class="row">
+            <div class="col align-self-center">
+                <button type="button" class="btn btn-primary w-35" id="mas_info_2">MÁS INFORMACIÓN</button>
             </div>
         </div>
     </div>
 
-    <div class="container text-center d-none d-lg-block">
-        <div class="row produccion">
-            <div class="flecha col-6 col-lg-2 offset-lg-1">
-                <p>RECEPCIÓN DEL MATERIAL</p>
-                <div class="img-produccion img-produccion-1 rounded-5 mx-auto"></div>
-                <!-- <img src="img/bloque_material_03.jpg" alt="" class="img-fabricacion"> -->
+    <img src="img/A7406564_1.jpg" alt="perfil tablas" class="w-100 mt-5">
+
+    <!-- ACABADOS -->
+    <div class="container-fluid py-4">
+        <div class="row text-center">
+            <p>ACABADOS</p>
+            <div class="linea_naranja"></div>
+        </div>
+        <div class="row mt-1">
+            <div class="col-12 col-lg-6 mt-3">
+                <div class="container text-left">
+                    <div class="row">
+                        <img src="img/acabados/pulido.jpg" alt="" class="col-4">
+                        <div class="col-8">
+                            <p class="fs-2 fw-bold">Pulido</p>
+                            <p>
+                                Este es el acabado más conocido, que proporciona una superficie lisa, brillante y de baja porosidad. Ideal para encimeras de cocina, baños y pisos interiores.
+                            </p>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="flecha col-6 col-lg-2">
-                <p>CORTE EN CORTABLOQUES</p>
-                <div class="img-produccion img-produccion-2 rounded-5 mx-auto"></div>
-                <!-- <img src="img/corte.jpg" alt="" class="img-fabricacion"> -->
+
+            <div class="col-12 col-lg-6 mt-3">
+                <div class="container text-left">
+                    <div class="row">
+                        <img src="img/acabados/apomazado.jpg" alt="" class="col-4">
+                        <div class="col-8">
+                            <p class="fs-2 fw-bold">Apomazado</p>
+                            <p class="alto_descripcion">
+                                Similar al pulido, pero con un acabado mate y suave al tacto. Ofrece un aspecto más natural y es menos susceptible a las manchas que el pulido.
+                            </p>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="flecha col-6 col-lg-2">
-                <p>REFUERZO Y PULIDO</p>
-                <div class="img-produccion img-produccion-3 rounded-5 mx-auto"></div>
-                <!-- <img src="img/pulido_refuerzo.jpg" alt="" class="img-fabricacion"> -->
+
+            <div class="col-12 col-lg-6 mt-3">
+                <div class="container text-left">
+                    <div class="row">
+                        <img src="img/acabados/abujardado.jpg" alt="" class="col-4">
+                        <div class="col-8">
+                            <p class="fs-2 fw-bold">Abujardado</p>
+                            <p>
+                                Crea una superficie rugosa y antideslizante mediante el martilleo con una herramienta especial. Perfecto para exteriores y áreas de alto tráfico.
+                            </p>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="flecha col-6 col-lg-2">
-                <p>CONTROL DE CALIDAD</p>
-                <div class="img-produccion img-produccion-4 rounded-5 mx-auto"></div>
-                <!-- <img src="img/control_calidad.jpg" alt="" class="img-fabricacion"> -->
+
+            <div class="col-12 col-lg-6 mt-3">
+                <div class="container text-left">
+                    <div class="row">
+                        <img src="img/acabados/flameado.jpg" alt="" class="col-4">
+                        <div class="col-8">
+                            <p class="fs-2 fw-bold">Flameado</p>
+                            <p>
+                                Este acabado se obtiene aplicando calor intenso a la superficie, creando un patrón irregular y rústico. Ideal para exteriores y aplicaciones donde se busca un aspecto natural y envejecido.
+                            </p>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="col-6 col-lg-2">
-                <p>CARGA Y TRANSPORTE</p>
-                <div class="img-produccion img-produccion-5 rounded-5 mx-auto"></div>
-                <!-- <img src="img/transporte.jpg" alt="" class="img-fabricacion"> -->
+
+            <div class="col-12 col-lg-6 mt-3">
+                <div class="container text-left">
+                    <div class="row">
+                        <img src="img/acabados/arenado.jpg" alt="" class="col-4">
+                        <div class="col-8">
+                            <p class="fs-2 fw-bold">Arenado</p>
+                            <p>
+                                Utiliza chorros de arena para crear una superficie uniformemente rugosa. Es una buena opción para pisos exteriores y aplicaciones donde se desea un acabado antideslizante.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-lg-6 mt-3">
+                <div class="container text-left">
+                    <div class="row">
+                        <img src="img/acabados/arenado_2.jpg" alt="" class="col-4">
+                        <div class="col-8">
+                            <p class="fs-2 fw-bold">Arenado</p>
+                            <p>
+                                Utiliza chorros de arena para crear una superficie uniformemente rugosa. Es una buena opción para pisos exteriores y aplicaciones donde se desea un acabado antideslizante.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-lg-6 mt-3">
+                <div class="container text-left">
+                    <div class="row">
+                        <img src="img/acabados/envejecido.jpg" alt="" class="col-4">
+                        <div class="col-8">
+                            <p class="fs-2 fw-bold">Envejecido</p>
+                            <p>
+                                Este acabado busca simular el paso del tiempo, creando una apariencia desgastada y vintage. Se logra mediante técnicas como el cepillado o el uso de ácidos.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-lg-6 mt-3">
+                <div class="container text-left">
+                    <div class="row">
+                        <img src="img/acabados/serrado.jpg" alt="" class="col-4">
+                        <div class="col-8">
+                            <p class="fs-2 fw-bold">Serrado</p>
+                            <p>
+                                El acabado más básico, obtenido al cortar el mármol con una sierra. La superficie es rugosa y se utiliza como base para otros acabados.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="row text-center pt-3">
+            <div class="col align-self-center">
+                <button type="button" class="btn btn-primary w-35" id="mas_info_2">MÁS INFORMACIÓN</button>
             </div>
         </div>
     </div>
 
+    <div class="py-4 d-none d-md-flex">
+        <img src="img/recepcion.jpg" alt="perfil tablas" class="w-50">
+        <img src="img/barra.jpg" alt="perfil tablas" class="w-50">
+    </div>
+
+    <div class="py-4 d-md-none">
+        <img src="img/recepcion.jpg" alt="perfil tablas" class="w-100">
+        <img src="img/barra.jpg" alt="perfil tablas" class="w-100">
+    </div>
+
+    <div class="container">
+        <img src="img/modelo-cartel-2021.png" alt="" class="w-100">
+    </div>
 
     <p></p>
     <p></p>
